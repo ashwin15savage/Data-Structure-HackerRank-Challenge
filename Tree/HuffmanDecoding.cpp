@@ -1,5 +1,4 @@
 void decode_huff(node * root, string s) {
-    string s1;
 node* current=root;
 for(int i=0;i<s.length();i++){
         if(s[i]=='0')
